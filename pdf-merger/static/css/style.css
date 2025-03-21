@@ -1,0 +1,130 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Navigation Bar Styles */
+.navbar {
+    /* Gradient background for visual appeal */
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+    padding: 1.2rem 0;
+    /* Subtle shadow for depth */
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Container modifications for wider layout */
+.container-fluid {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+    max-width: 1400px;
+}
+
+/* Navigation Menu Items Spacing */
+.navbar-nav {
+    gap: 0.5rem; /* Space between nav items */
+}
+
+/* Brand/Logo Styling */
+.navbar-brand {
+    color: white !important;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navbar-brand i {
+    margin-right: 8px;
+}
+
+/* Navigation Links Styling */
+.nav-link {
+    /* Semi-transparent white text */
+    color: rgba(255, 255, 255, 0.9) !important;
+    font-weight: 500;
+    /* Smooth transition for hover effects */
+    transition: all 0.3s ease;
+    padding: 0.7rem 1.2rem;
+    margin: 0 0.2rem;
+    border-radius: 6px;
+    font-size: 1.1rem;
+}
+
+.nav-link:hover {
+    color: white !important;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.nav-link.active {
+    background: rgba(255, 255, 255, 0.2);
+    color: white !important;
+}
+
+.nav-link i {
+    margin-right: 5px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    flex: 1;
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* Form Container Styles */
+form {
+    /* Card-like appearance for form */
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    /* Subtle shadow for depth */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* File Input Styling */
+input[type="file"] {
+    margin: 10px 0;
+}
+
+/* Button Styling */
+button {
+    display: inline-block;
+    font-size: 16px;
+    color: #ffffff;
+    background: #35424a;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Button Hover Effect */
+button:hover {
+    background: #45a049;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: #35424a;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
+}
